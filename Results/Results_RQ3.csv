@@ -1,0 +1,35 @@
+Composites,Measure,Cohesion,,,Coupling,,,,,Comlexity,,,,Inheritance,,,Design Size,,,,,,
+,,LCOM,TCC,LCC,CBO,RFC,FANIN,FANOUT,NOSI,WMC,EVG,MaxNest,CC,DIT,NOC,IFANIN,LOC,BLOC,CLOC,STMTC,NIM,NIV,VQTY
+EM: EI,Refactoring Impact,0,1,1,0,-12,0,0,0,-5,-3,-3,-1,0,0,0,-2,0,0,7,2,-20,0
+,Behavior,-,decrease,decrease,-,decrease,-,-,-,decrease,decrease,decrease,decrease,-,-,-,decrease,-,-,increase,increase,increase,-
+,P-value ($\delta$),1 (N),<0.05 (S),<0.05 (S),1 (N),<0.05 (M),0.07 (N),0.07 (N),<0.05 (N),<0.05(S),<0.05 (S),<0.05(S),<0.05(N),0.08 (N),0.23 (S),0.19 (N),0.06 (N),0.16 (N),<0.05 (N),0.09 (S),<0.05 (N),<0.05 (M),0.12 (N)
+EM: RM,Refactoring Impact,-2,0,0,-1,-3,0,0,0,-1,-2,-2,-1,-1,0,0,-6,0,0,3,1,5,2
+,Behavior,decrease,-,-,decrease,decrease,-,-,-,decrease,decrease,decrease,decrease,decrease,-,-,decrease,-,-,increase,increase,increase,increase
+,P-value ($\delta$),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (S),0.23 (N),0.09 (N),<0.05 (N),<0.05 (N),<0.05 (S),<0.05 (S),<0.05 (N),0.65 (N),0.16 (N),0.09 (N),<0.05 (N),0.29 (N),0.07 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N)
+EM:MM,Refactoring Impact,0,0,0,0,-11,0,0,0,-1,-1,-2,-1,-2,0,0,-2,-4,0,-1,0,-16,-4
+,Behavior,-,-,-,-,decrease,-,-,-,decrease,decrease,decrease,decrease,decrease,-,-,decrease,decrease,-,decrease,-,decrease,decrease
+,P-value ($\delta$),0.95 (N),<0.05 (N),<0.05 (N),0.28 (N),<0.05 (M),0.07 (N),0.92 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),0.26 (N),<0.05 (N),<0.05 (S),0.38 (N),<0.05 (N),0.43 (N),<0.05 (M),<0.05 (S)
+EI:MM,Refactoring Impact,0,0,0,0,-12,0,0,0,0,0,-2,-1,-2,0,0,-7,-4,0,-1,0,-8,-2
+,Behavior,-,-,-,-,decrease,-,-,-,-,-,decrease,decrease,decrease,-,-,decrease,decrease,-,decrease,-,decrease,decrease 
+,P-value ($\delta$),0.85,0.06 (N),0.06 (N),0.78 (N),<0.05 (S),1 (N),0.09 (N),0.15 (N),0.58 (N),0.06 (N),<0.05 (S),<0.05 (N),<0.05 (N),0.06 (N),1 (N),<0.05 (N),<0.05 (N),0.26 (N),<0.05 (N),0.85,<0.05 (S),<0.05 (S)
+EI:MA,Refactoring Impact,0,0,0,0,-12,0,0,0,0,0,-2,-1,-2,0,0,-19,-4,0,-1,-1,-1,-1
+,Behavior,-,-,-,-,decrease,-,-,-,-,-,decrease,decrease,decrease,-,-,decrease,decrease,-,decrease,decrease,decrease,decrease
+,P-value ($\delta$),0.41 (N),0.10 (N),0.10 (N),0.78 (N),<0.05 (M),0.27 (N),0.07 (N),0.09 (N),0.58 (N),<0.05 (N),<0.05 (N),<0.05 (N),0.12 (N),<0.05 (N),<0.05 (N),<0.05 (M),<0.05 (S),0.13 (N),<0.05 (N),<0.05 (N),<0.05 (N),0.16 (N)
+MM: IM,Refactoring Impact,0,0,0,0,-11,0,0,0,-1,0,-2,-1,-2,0,0,-7,-6,0,-1,0,-1,-5
+,Behavior,-,-,-,-,decrease,-,-,-,decrease,-,decrease,decrease,decrease,-,-,decrease,decrease,-,decrease,-,decrease,decrease
+,P-value ($\delta$),0.39 (N),0.06 (N),0.06 (N),0.27 (N),<0.05 (M),0.19 (N),0.60 (N),0.17 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),0.77 (N),<0.05 (S),<0.05 (S),0.10 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N)
+MM:MA,Refactoring Impact,0,1,1,-3,-2,0,0,0,0,0,-1,-5,0,0,0,-3,0,0,-1,-1,0,-1
+,Behavior,-,increase,increase,decrease,decrease,-,-,-,-,-,decrease,decrease,-,-,-,decrease,-,-,decrease,decrease,-,decrease
+,P-value ($\delta$),0.50 (N),<0.05 (N),<0.05 (N),,<0.05 (N),0.48 (N),0.08 (N),0.39 (N),0.11 (N),<0.05 (N),<0.05 (N),<0.05 (S),1 (N),0.9 (N),0.74 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),0.19 (N),<0.05 (N)
+MM:PDA,Refactoring Impact,3,0,0,-8,-10,0,0,0,-6,-1,-1,-1,-6,1,-1,-25,6,-3,-3,0,1,-6
+,Behavior,increase,-,-,decrease,decrease,-,-,-,decrease,decrease,decrease,decrease,decrease,increase,decrease,decrease,increase,decrease,decrease,-,increase,decrease
+,P-value ($\delta$),1 (N),0.12 (N),0.12 (N),<0.05 (N),<0.05 (S),0.33 (N),0.17 (N),<0.05 (N),<0.05 (S),<0.05 (N),<0.05 (N),0.9 (N),<0.05 (N),1 (N),1 (N),<0.05 (M),<0.05 (M),0.9 (N),<0.05 (S),0.9 (N),1 (N),<0.05 (S)
+MA:MIM,Refactoring Impact,0,0,0,0,-9,0,0,0,0,-1,-2,-1,-6,0,0,-19,-13,0,-2,-2,-2,0
+,Behavior,-,-,-,-,decrease,-,-,-,-,decrease,decrease,decrease,decrease,-,-,decrease,decrease,-,decrease,decrease,decrease,-
+,P-value ($\delta$),0.95 (N),1 (N),1 (N),0.59 (N),<0.05 (M),0.51 (N),0.28 (N),<0.05 (N),0.94 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (S),1 (N),1 (N),<0.05 (M),<0.05 (M),1 (N),<0.05 (N),<0.05 (N),<0.05 (N),1 (N)
+MA:PDA,Refactoring Impact,0,0,0,0,-1,0,0,0,0,0,-2,-1,0,0,0,-8,-4,0,-1,-1,-2,0
+,Behavior,-,-,-,-,decrease,-,-,-,-,-,decrease,decrease,-,-,-,decrease,decrease,-,decrease,decrease,decrease,-
+,P-value ($\delta$),1 (N),1 (N),1 (N),1 (N),0.15 (N),0.11 (N),0.69 (N),1 (N),1 (N),<0.05 (N),<0.05 (N),<0.05 (N),1 (N),<0.05 (N),1 (N),<0.05 (S),<0.05 (S),1 (N),<0.05 (N),0.9 (N),<0.05 (N),0.78 (N)
+MA:PUM,Refactoring Impact,0,0,0,0,-7,0,0,0,0,-1,-3,-1,5,0,0,-19,-12,0,-2,-2,-2,-5
+,Behavior,-,-,-,-,decrease,-,-,-,-,decrease,decrease,decrease,increase,-,-,decrease,decrease,-,decrease,decrease,decrease,decrease
+,P-value ($\delta$),0.55 (N),1 (N),1 (N),0.30 (N),<0.05 (M),0.21 (N),0.79 (N),0.59 (N),0.15 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (N),0.06 (N),0.34 (N),<0.05 (M),<0.05 (M),0.19 (N),<0.05 (N),<0.05 (N),<0.05 (N),<0.05 (S)

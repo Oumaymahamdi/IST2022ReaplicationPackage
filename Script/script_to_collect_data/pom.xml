@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>oumayma_hamdi</groupId>
+	<artifactId>oumayma_hamdi</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.github.tsantalis</groupId>
+			<artifactId>refactoring-miner</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.github.mauricioaniche/ck -->
+		<!-- https://mvnrepository.com/artifact/com.github.mauricioaniche/ck -->
+		<dependency>
+			<groupId>com.github.mauricioaniche</groupId>
+			<artifactId>ck</artifactId>
+			<version>0.6.4</version>
+		</dependency>
+
+	</dependencies>
+</project>
